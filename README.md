@@ -13,6 +13,9 @@ cd heic-to-jpg
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+
+# 3. 建立輸入 / 輸出目錄
+mkdir -p input output
 ```
 
 ## 使用方式
