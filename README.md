@@ -6,7 +6,7 @@
 
 ```bash
 # 1. 複製專案
-git clone https://github.com/<你的帳號>/heic-to-jpg.git
+git clone https://github.com/FanShenYun/heic-to-jpg.git
 cd heic-to-jpg
 
 # 2. 建立虛擬環境並安裝依賴
@@ -18,17 +18,10 @@ pip install -r requirements.txt
 ## 使用方式
 
 ```bash
-# 基本用法：轉換後的 JPG 檔案會建立在原目錄
-python heic_converter.py <輸入目錄>
 
 # 指定輸出目錄
-python heic_converter.py <輸入目錄> -o <輸出目錄>
+python heic_converter.py ./input -o ./output
 
-# 調整 JPG 品質（1-100，預設 85）
-python heic_converter.py <輸入目錄> -q 90
-
-# 不遞迴搜尋子目錄
-python heic_converter.py <輸入目錄> --no-recursive
 ```
 
 ## 參數說明
